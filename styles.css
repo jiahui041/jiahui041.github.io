@@ -166,30 +166,19 @@ section h2 i {
 }s
 
 .project-card {
-    background: #e8d3ba;
+    background: #e2c29a;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px 0;
-    border: 1px solid #ffffff;
+    border: 1px solid #e8e6a1;
 }
 
-.project-card.project-1 {
-    background-color: #ffffff;
-}
-
-.project-card.project-2 {
-    background-color: #ffffff; 
-}
-
-.project-card.project-3 {
-    background-color: #ffffff; 
-}
 
 .project-card h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #835353;
+    color: #321d1d;
 }
 
 .project-card img {
@@ -258,3 +247,80 @@ footer {
     padding: 20px;
     margin: 10px auto;
 }
+.project-summary-box {
+    background-color: #d7d3cd;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .project-summary-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-summary-box h3 {
+    color: #8a3d3f;
+    margin-top: 0;
+    font-size: 1.4rem;
+  }
+
+  .project-summary-box ul {
+    padding-left: 20px;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .project-summary-box a {
+    color: #0b1e71;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .project-summary-box a:hover {
+    text-decoration: underline;
+  }
+
+  .project-summary-box a img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.project-summary-box a:hover img {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.view-project-link {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .view-project-link a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #010a14;
+  }
+  
+  .view-project-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .view-button {
+    display: inline-block;
+    background-color: #f4ad55;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-button:hover {
+    background-color: #eb6f16;
+  }
+  
