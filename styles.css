@@ -247,11 +247,34 @@ section h2 i {
 /* About Intro Heading */
 .intro-heading {
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 5px;
     margin-top: 0;
-    color: #222;
+    color: #034b7c; 
+    opacity: 0;
+    transform: translateX(-40px);
+    animation: slideIn 1s ease forwards;
 }
+    
+.title-highlight {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #034b7c;
+    margin-top: 5px;
+    opacity: 0;
+    transform: translateX(-40px);
+    animation: slideIn 1s ease forwards;
+    animation-delay: 0.8s;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 
 /* Mission Highlight */
 .mission-highlight {
